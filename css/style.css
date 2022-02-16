@@ -91,7 +91,9 @@ a.skip{
   transition: left 1s ease-out;
   z-index: 1;
   /* Requirement 3 code here*/
-  left: 500px;
+  position: absolute;
+  top: 20px;
+  left: -500px;
 }
 
 
@@ -142,7 +144,7 @@ img {
 }
 
 .text{
-  align-content: center;
+  text-align: center;
   max-height: 25vh;
   overflow: scroll;
 }
@@ -163,7 +165,9 @@ img {
   
   /* Requirements 12-15 here: */
   a.skip:focus{
-    margin-top: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
   }
   .container{
     display: grid;
